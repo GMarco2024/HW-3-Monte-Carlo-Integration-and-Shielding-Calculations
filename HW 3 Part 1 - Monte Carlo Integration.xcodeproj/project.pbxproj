@@ -15,7 +15,6 @@
 		ED7A1E402B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E3F2B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITests.swift */; };
 		ED7A1E422B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E412B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITestsLaunchTests.swift */; };
 		ED7A1E4F2B756002004568C4 /* Integration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E4E2B756002004568C4 /* Integration.swift */; };
-		ED7A1E512B7564A6004568C4 /* Number of Guesses.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E502B7564A6004568C4 /* Number of Guesses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		ED7A1E3F2B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW_3_Part_1___Monte_Carlo_IntegrationUITests.swift"; sourceTree = "<group>"; };
 		ED7A1E412B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW_3_Part_1___Monte_Carlo_IntegrationUITestsLaunchTests.swift"; sourceTree = "<group>"; };
 		ED7A1E4E2B756002004568C4 /* Integration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integration.swift; sourceTree = "<group>"; };
-		ED7A1E502B7564A6004568C4 /* Number of Guesses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number of Guesses.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +100,6 @@
 				ED7A1E232B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift */,
 				ED7A1E252B755D00004568C4 /* ContentView.swift */,
 				ED7A1E4E2B756002004568C4 /* Integration.swift */,
-				ED7A1E502B7564A6004568C4 /* Number of Guesses.swift */,
 				ED7A1E272B755D02004568C4 /* Assets.xcassets */,
 				ED7A1E292B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_Integration.entitlements */,
 				ED7A1E2A2B755D02004568C4 /* Preview Content */,
@@ -268,7 +265,6 @@
 				ED7A1E262B755D00004568C4 /* ContentView.swift in Sources */,
 				ED7A1E242B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift in Sources */,
 				ED7A1E4F2B756002004568C4 /* Integration.swift in Sources */,
-				ED7A1E512B7564A6004568C4 /* Number of Guesses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
