@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var n: String = ""
-    @State private var nValueForGuesses: String = ""  "Enter N"
+    @State private var nValueForGuesses: String = ""
     @State private var investigationResults: [String] = []
 
     var body: some View {
@@ -40,7 +40,7 @@ struct ContentView: View {
                     Text("Integration Result: \(investigationResults.last!)")
                         .padding()
                 }
-
+                
               
                 TextField("Enter N", text: $nValueForGuesses)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -48,7 +48,7 @@ struct ContentView: View {
                     .padding()
 
                 Button("Calculate Guesses") {
-                  
+         
                 }
                 .padding()
             }
@@ -62,5 +62,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
 
 
