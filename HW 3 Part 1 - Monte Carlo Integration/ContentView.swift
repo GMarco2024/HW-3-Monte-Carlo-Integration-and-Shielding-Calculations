@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var roots: [String] = []
     @State private var n: String = ""
     @State private var investigationResults: [String] = []
 
@@ -17,26 +16,42 @@ struct ContentView: View {
                     .fontWeight(.regular)
                 
                 Text("using n = 10 ,20 ,50 ,100 , 200, 500 , 10000, 10000, 50000.")
-                    .font(.headline)
-                    .fontWeight(.regular)
+                                    .font(.headline)
+                                    .fontWeight(.regular)
+                
 
-                HStack {
-                    TextField("Enter value of n", text: .constant(""))
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .frame(maxWidth: 330)
-                        .padding()
-                }
+                TextField("Enter value of n", text: $n)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .frame(maxWidth: 330)
+                    .padding()
 
                 Button("Calculate Iteration") {
-             
-                }
                
+                    if let numberOfIterations = Int(n) {
+                        let result = calculateMonteCarloIntegration(iterations: numberOfIterations)
+                        print("Result of Monte Carlo integration: \(result)")
+                        // Update the investigationResults array with the result
+                        investigationResults.append("Result: \(result)")
+                    } else {
+                        // Handle invalid input
+                        print("Invalid input for n")
                     }
                 }
                 .padding()
+                
+               
+                if !investigationResults.isEmpty {
+                    Text("Integration Result: \(investigationResults.last!)")
+                        .padding()
+                }
             }
-  
+            .padding()
         }
-    
+    }
+}
 
-
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}

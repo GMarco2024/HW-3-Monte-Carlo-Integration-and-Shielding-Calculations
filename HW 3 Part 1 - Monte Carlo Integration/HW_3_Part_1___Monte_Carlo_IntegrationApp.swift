@@ -1,4 +1,9 @@
-//___FILEHEADER___
+//
+//  HW_3_Part_1___Monte_Carlo_IntegrationApp.swift.swift
+//  HW 3 Part 1 - Monte Carlo Integration
+//
+//  Created by Marco on 2/8/24.
+//
 
 import SwiftUI
 
