@@ -15,46 +15,38 @@ struct MonteCarloPoint: Hashable {
 }
 
 struct MonteCarloDrawingView: View {
-    var numberOfPoints: Int = 100 // Number of Monte Carlo points to display
-    var functionPoints: [CGPoint] = [] // Points for the function curve
-    var monteCarloPoints: [MonteCarloPoint] = []
-    
-    init() {
-        // Generate points for the e^-x curve
-        for x in stride(from: 0.0, through: 1.0, by: 0.01) {
-            let y = exp(-x)
-            functionPoints.append(CGPoint(x: x, y: y))
-        }
-        
-        // Generate random points for the Monte Carlo method visualization
-        for _ in 0..<numberOfPoints {
-            let x = Double.random(in: 0...1)
-            let y = Double.random(in: 0...1)
-            let isUnderCurve = y <= exp(-x)
-            monteCarloPoints.append(MonteCarloPoint(xPoint: x, yPoint: y, isUnderCurve: isUnderCurve))
-        }
-    }
+    var monteCarloPoints: [MonteCarloPoint]
     
     var body: some View {
-            GeometryReader { geometry in
-                Path { path in
-                    for point in functionPoints {
-                        let scaledX = CGFloat(point.x) * geometry.size.width
-                        let scaledY = (1 - CGFloat(point.y)) * geometry.size.height // Flip y-axis
-                        if point == functionPoints.first {
-                            path.move(to: CGPoint(x: scaledX, y: scaledY))
-                        } else {
-                            path.addLine(to: CGPoint(x: scaledX, y: scaledY))
-                        }
+        GeometryReader { geometry in
+            // Drawing the curve of e^-x
+            Path { path in
+                for x in stride(from: 0.0, through: 1.0, by: 0.01) {
+                    let y = exp(-x)
+                    let scaledX = CGFloat(x) * geometry.size.width
+                    let scaledY = (1 - CGFloat(y)) * geometry.size.height // Flip y-axis
+                    if x == 0 {
+                        path.move(to: CGPoint(x: scaledX, y: scaledY))
+                    } else {
+                        path.addLine(to: CGPoint(x: scaledX, y: scaledY))
                     }
                 }
-                .stroke(Color.red, lineWidth: 2)
+            }
+            .stroke(Color.red, lineWidth: 2)
+            
+            // Displaying Monte Carlo points. These are the properties of the points generated.
             
             ForEach(monteCarloPoints, id: \.self) { point in
                 Circle()
-                    .fill(point.isUnderCurve ? Color.green : Color.blue)
+                    .fill(point.isUnderCurve ? Color.red : Color.blue)
                     .frame(width: 5, height: 5)
-                    .position(x: geometry.size.width * CGFloat(point.xPoint), y: geometry.size.height * (1 - CGFloat(point.yPoint)))
+                    .position(
+      
+                        //This calcualtes the position of each point to match the scaled drawing
+                        x: CGFloat(point.xPoint) * geometry.size.width,
+                        y: (1 - CGFloat(point.yPoint)) * geometry.size.height //
+                        
+                    )
             }
         }
     }
@@ -62,7 +54,13 @@ struct MonteCarloDrawingView: View {
 
 struct MonteCarloDrawingView_Previews: PreviewProvider {
     static var previews: some View {
-        MonteCarloDrawingView()
-            .frame(width: 300, height: 300)
+        // Example points for preview
+        let examplePoints = [
+            MonteCarloPoint(xPoint: 0.1, yPoint: 0.9, isUnderCurve: false),
+            MonteCarloPoint(xPoint: 0.2, yPoint: 0.8, isUnderCurve: true)
+        ]
+        
+        MonteCarloDrawingView(monteCarloPoints: examplePoints)
+            .frame(width: 500, height: 500)
     }
 }
