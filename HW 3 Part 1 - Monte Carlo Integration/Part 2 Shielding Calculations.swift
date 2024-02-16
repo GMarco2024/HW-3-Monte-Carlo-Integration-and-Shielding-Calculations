@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct TwoPlusTwo: View {
+struct ShieldingCalculations: View {
     var body: some View {
-        Text("2 + 2 = 4")
+        Text("Shielding Calculations")
             .font(.title)
             .padding()
     }
@@ -17,7 +17,7 @@ struct TwoPlusTwo: View {
 
 struct TwoPlusTwo_Previews: PreviewProvider {
     static var previews: some View {
-        TwoPlusTwo()
+        ShieldingCalculations()
     }
 }
 

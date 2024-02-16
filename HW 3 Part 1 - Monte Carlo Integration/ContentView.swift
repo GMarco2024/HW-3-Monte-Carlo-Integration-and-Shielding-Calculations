@@ -86,9 +86,9 @@ struct ContentView: View {
             
 // Second Tab
             
-            TwoPlusTwo()
+            ShieldingCalculations()
                 .tabItem {
-                    Label("2+2=4", systemImage: "plus")
+                    Label("Shielding Calculations", systemImage: "")
                 }
         }
     }
@@ -122,13 +122,16 @@ struct ContentView: View {
         let totalGuesses = Int(totalGuessString)! + guesses
         totalGuessString = "\(totalGuesses)"
         
-// Integral result based on Monte Carlo method
+// Integral result based on Monte Carlo method. In this line .5 indicates the number of decimals to display for any result calculated.
         
         let integralResult = sum / Double(guesses)
         integralResultString = String(format: "%.5f", integralResult)
         
         let exactValue = 1 - 1 / 2.718281828459045
         let relativeError = abs((exactValue - integralResult) / exactValue)
+     
+ // Decimal place value. In this line .5 indicates the number of decimals to display for any result calculated.
+        
         relativeErrorString = String(format: "%.5f", relativeError)
         
         monteCarloIntegral.setButtonEnable(state: true)
