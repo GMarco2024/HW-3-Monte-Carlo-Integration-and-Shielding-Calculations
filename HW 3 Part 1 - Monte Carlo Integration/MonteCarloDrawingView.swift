@@ -53,15 +53,3 @@ struct MonteCarloDrawingView: View {
         }
     }
 }
-
-struct MonteCarloDrawingView_Previews: PreviewProvider {
-    static var previews: some View {
-        // Example points for preview
-        let examplePoints = [
-            MonteCarloPoint(xPoint: 0.1, yPoint: 0.9, isUnderCurve: false),
-            MonteCarloPoint(xPoint: 0.2, yPoint: 0.8, isUnderCurve: true)
-        ]
-        
-       
-    }
-}
