@@ -1,0 +1,4 @@
+Equation e^-x dx in Latex form
+
+
+\[\int e^{-x} \, dx\]

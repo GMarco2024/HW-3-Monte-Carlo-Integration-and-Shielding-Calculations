@@ -14,7 +14,7 @@
 		ED7A1E362B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E352B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationTests.swift */; };
 		ED7A1E402B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E3F2B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITests.swift */; };
 		ED7A1E422B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E412B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITestsLaunchTests.swift */; };
-		ED7A1E4F2B756002004568C4 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E4E2B756002004568C4 /* DrawingView.swift */; };
+		ED7A1E4F2B756002004568C4 /* MonteCarloDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E4E2B756002004568C4 /* MonteCarloDrawingView.swift */; };
 		ED8B08BA2B7ED19900CDD89B /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8B08B92B7ED19900CDD89B /* BoundingBox.swift */; };
 		EDE8453D2B75A261007D08D5 /* MonteCarloIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE8453C2B75A261007D08D5 /* MonteCarloIntegration.swift */; };
 /* End PBXBuildFile section */
@@ -48,7 +48,7 @@
 		ED7A1E3B2B755D02004568C4 /* HW 3 Part 1 - Monte Carlo IntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW 3 Part 1 - Monte Carlo IntegrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7A1E3F2B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW_3_Part_1___Monte_Carlo_IntegrationUITests.swift"; sourceTree = "<group>"; };
 		ED7A1E412B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW_3_Part_1___Monte_Carlo_IntegrationUITestsLaunchTests.swift"; sourceTree = "<group>"; };
-		ED7A1E4E2B756002004568C4 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		ED7A1E4E2B756002004568C4 /* MonteCarloDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloDrawingView.swift; sourceTree = "<group>"; };
 		ED8B08B92B7ED19900CDD89B /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
 		EDE8453C2B75A261007D08D5 /* MonteCarloIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloIntegration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,7 @@
 			children = (
 				ED7A1E232B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift */,
 				ED7A1E252B755D00004568C4 /* ContentView.swift */,
-				ED7A1E4E2B756002004568C4 /* DrawingView.swift */,
+				ED7A1E4E2B756002004568C4 /* MonteCarloDrawingView.swift */,
 				EDE8453C2B75A261007D08D5 /* MonteCarloIntegration.swift */,
 				ED8B08B92B7ED19900CDD89B /* BoundingBox.swift */,
 				ED7A1E272B755D02004568C4 /* Assets.xcassets */,
@@ -271,7 +271,7 @@
 				ED8B08BA2B7ED19900CDD89B /* BoundingBox.swift in Sources */,
 				ED7A1E262B755D00004568C4 /* ContentView.swift in Sources */,
 				ED7A1E242B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift in Sources */,
-				ED7A1E4F2B756002004568C4 /* DrawingView.swift in Sources */,
+				ED7A1E4F2B756002004568C4 /* MonteCarloDrawingView.swift in Sources */,
 				EDE8453D2B75A261007D08D5 /* MonteCarloIntegration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

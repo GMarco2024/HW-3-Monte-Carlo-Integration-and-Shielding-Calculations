@@ -64,10 +64,15 @@ struct ContentView: View {
                 }
                 .padding()
             }
-            
-            Spacer()
-        
-        }
+                        
+                        // Visual representation of the Monte Carlo integration
+                        MonteCarloDrawingView()
+                            .padding()
+                            .aspectRatio(1, contentMode: .fit)
+                            .border(Color.gray, width: 1)
+                        
+                        Spacer()
+                    }
     }
     
     //Function in which to calculate inegral.
