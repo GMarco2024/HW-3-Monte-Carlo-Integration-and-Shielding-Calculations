@@ -61,6 +61,6 @@ struct MonteCarloDrawingView_Previews: PreviewProvider {
         ]
         
         MonteCarloDrawingView(monteCarloPoints: examplePoints)
-            .frame(width: 500, height: 500)
+            .frame(width: 300, height: 300)
     }
 }
