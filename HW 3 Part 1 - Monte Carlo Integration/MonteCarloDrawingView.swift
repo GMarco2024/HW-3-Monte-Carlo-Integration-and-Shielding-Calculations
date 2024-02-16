@@ -1,3 +1,10 @@
+//
+//  MonteCarloDrawingView.swift
+//  Monte Carlo Integral
+//
+//  Created by Marco on 2/15/24.
+//
+
 import SwiftUI
 
 // Define a struct to represent a point in the Monte Carlo simulation
