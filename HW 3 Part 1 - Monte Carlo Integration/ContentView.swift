@@ -1,3 +1,10 @@
+//
+//  ContentView.swift
+//  Monte Carlo Integral
+//
+//  Created by Marco on 2/15/24.
+//
+
 import SwiftUI
 import Foundation
 
