@@ -63,9 +63,10 @@ struct ContentView: View {
             
             // Visual representation of the Monte Carlo integration
             MonteCarloDrawingView(monteCarloPoints: monteCarloPoints)
-                .padding()
-                .aspectRatio(1, contentMode: .fit)
-                .border(Color.gray, width: 1)
+                    .padding()
+                    .aspectRatio(1, contentMode: .fit)
+                    .frame(maxWidth: 250, maxHeight: 250) // Limit the maximum size
+                    .border(Color.gray, width: 1)
         }
     }
     

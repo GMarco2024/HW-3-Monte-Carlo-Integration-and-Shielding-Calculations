@@ -19,7 +19,9 @@ struct MonteCarloDrawingView: View {
     
     var body: some View {
         GeometryReader { geometry in
+           
             // Drawing the curve of e^-x
+            
             Path { path in
                 for x in stride(from: 0.0, through: 1.0, by: 0.01) {
                     let y = exp(-x)
@@ -60,7 +62,6 @@ struct MonteCarloDrawingView_Previews: PreviewProvider {
             MonteCarloPoint(xPoint: 0.2, yPoint: 0.8, isUnderCurve: true)
         ]
         
-        MonteCarloDrawingView(monteCarloPoints: examplePoints)
-            .frame(width: 300, height: 300)
+       
     }
 }
