@@ -14,12 +14,12 @@ struct HW3Part1MonteCarloIntegrationApp: App {
             TabView {
                 MonteCarloIntegrationContentView()
                     .tabItem {
-                        Label("Monte Carlo", systemImage: "function")
+                        Label("Part 1 - Monte Carlo Integration", systemImage: "function")
                     }
                 
                 ShieldingCalculationsContentView()
                     .tabItem {
-                        Label("Shielding Test Calculations", systemImage: "shield")
+                        Label("Part 2 - Shielding Test Calculations", systemImage: "shield")
                     }
             }
         }

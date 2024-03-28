@@ -11,7 +11,6 @@
 		333E40522BB6223C00A2C421 /* Wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333E40512BB6223C00A2C421 /* Wall.swift */; };
 		333E40542BB6224C00A2C421 /* Neutron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333E40532BB6224C00A2C421 /* Neutron.swift */; };
 		333E40562BB6225D00A2C421 /* PathPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333E40552BB6225D00A2C421 /* PathPositions.swift */; };
-		90F543532B7FD9EE0090343D /* Part 2 Shielding Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F543522B7FD9EE0090343D /* Part 2 Shielding Calculations.swift */; };
 		ED7A1E242B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E232B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift */; };
 		ED7A1E262B755D00004568C4 /* MonteCarloIntegrationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E252B755D00004568C4 /* MonteCarloIntegrationContentView.swift */; };
 		ED7A1E282B755D02004568C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7A1E272B755D02004568C4 /* Assets.xcassets */; };
@@ -47,7 +46,6 @@
 		333E40512BB6223C00A2C421 /* Wall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wall.swift; sourceTree = "<group>"; };
 		333E40532BB6224C00A2C421 /* Neutron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neutron.swift; sourceTree = "<group>"; };
 		333E40552BB6225D00A2C421 /* PathPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathPositions.swift; sourceTree = "<group>"; };
-		90F543522B7FD9EE0090343D /* Part 2 Shielding Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Part 2 Shielding Calculations.swift"; sourceTree = "<group>"; };
 		ED7A1E202B755D00004568C4 /* HW 3 Part 1 - Monte Carlo Integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW 3 Part 1 - Monte Carlo Integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7A1E232B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW_3_Part_1___Monte_Carlo_IntegrationApp.swift"; sourceTree = "<group>"; };
 		ED7A1E252B755D00004568C4 /* MonteCarloIntegrationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloIntegrationContentView.swift; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 				EDE8453C2B75A261007D08D5 /* MonteCarloIntegration.swift */,
 				ED8B08B92B7ED19900CDD89B /* BoundingBox.swift */,
 				ED7DF24D2B7EFA2100E868E2 /* IntegralRelativeError.swift */,
-				90F543522B7FD9EE0090343D /* Part 2 Shielding Calculations.swift */,
 				333E404E2BB6218200A2C421 /* Part 2 Shielding Calculations */,
 				ED7A1E272B755D02004568C4 /* Assets.xcassets */,
 				ED7A1E292B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_Integration.entitlements */,
@@ -301,7 +298,6 @@
 				ED7DF24E2B7EFA2100E868E2 /* IntegralRelativeError.swift in Sources */,
 				ED7A1E262B755D00004568C4 /* MonteCarloIntegrationContentView.swift in Sources */,
 				ED7A1E242B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift in Sources */,
-				90F543532B7FD9EE0090343D /* Part 2 Shielding Calculations.swift in Sources */,
 				ED7A1E4F2B756002004568C4 /* MonteCarloDrawingView.swift in Sources */,
 				EDE8453D2B75A261007D08D5 /* MonteCarloIntegration.swift in Sources */,
 				333E40542BB6224C00A2C421 /* Neutron.swift in Sources */,
