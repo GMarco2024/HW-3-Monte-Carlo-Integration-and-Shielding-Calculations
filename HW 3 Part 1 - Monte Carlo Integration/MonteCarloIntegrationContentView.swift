@@ -10,7 +10,7 @@ import Foundation
 
 // Default number of guesses
 
-struct ContentView: View {
+struct MonteCarloIntegrationContentView: View {
     @State private var guessesString = "1"
     @State private var totalGuessString = "0"
     @State private var integralResultString = "0.0"
@@ -79,17 +79,9 @@ struct ContentView: View {
                     .border(Color.gray, width: 1)
             }
             
-//First Tab
-            .tabItem {
-                Label("Monte Carlo Integration", systemImage: "function")
-            }
+
             
-// Second Tab
-            
-            ShieldingCalculations()
-                .tabItem {
-                    Label("Shielding Calculations", systemImage: "")
-                }
+    
         }
     }
     
@@ -152,6 +144,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MonteCarloIntegrationContentView()
     }
 }
