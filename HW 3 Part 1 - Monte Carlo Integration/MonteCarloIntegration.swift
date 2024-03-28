@@ -1,5 +1,5 @@
 //
-//  MonteCarloIntegral.swift
+//  MonteCarloIntegration.swift
 //  Monte Carlo Integral
 //
 //  Created by Marco on 2/15/24.
