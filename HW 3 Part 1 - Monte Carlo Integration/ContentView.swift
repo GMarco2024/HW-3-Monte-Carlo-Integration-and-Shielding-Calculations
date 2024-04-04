@@ -25,7 +25,7 @@ struct ContentView: View {
     @ObservedObject private var monteCarloIntegral = MonteCarloIntegral(withData: true)
     
     var body: some View {
-        TabView {
+      
             ScrollView {
                 VStack(alignment: .leading) {
                     Text("Guesses")
@@ -82,7 +82,7 @@ struct ContentView: View {
 
             
     
-        }
+        
     }
     
     private func calculateIntegral() async {
