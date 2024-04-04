@@ -38,15 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ED7A1E202B755D00004568C4 /* HW 3 Monte Carlo Integration and Shielding Calculations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW 3 Monte Carlo Integration and Shielding Calculations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7A1E202B755D00004568C4 /* HW 3 Part 1 Monte Carlo Integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW 3 Part 1 Monte Carlo Integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7A1E232B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW_3_Part_1___Monte_Carlo_IntegrationApp.swift"; sourceTree = "<group>"; };
 		ED7A1E252B755D00004568C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED7A1E272B755D02004568C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED7A1E292B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_Integration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HW_3_Part_1___Monte_Carlo_Integration.entitlements"; sourceTree = "<group>"; };
 		ED7A1E2B2B755D02004568C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ED7A1E312B755D02004568C4 /* HW 3 Monte Carlo Integration and Shielding CalculationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW 3 Monte Carlo Integration and Shielding CalculationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7A1E312B755D02004568C4 /* HW 3 Part 1 Monte Carlo IntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW 3 Part 1 Monte Carlo IntegrationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7A1E352B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW_3_Part_1___Monte_Carlo_IntegrationTests.swift"; sourceTree = "<group>"; };
-		ED7A1E3B2B755D02004568C4 /* HW 3 Monte Carlo Integration and Shielding CalculationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW 3 Monte Carlo Integration and Shielding CalculationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7A1E3B2B755D02004568C4 /* HW 3 Part 1 Monte Carlo IntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW 3 Part 1 Monte Carlo IntegrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7A1E3F2B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW_3_Part_1___Monte_Carlo_IntegrationUITests.swift"; sourceTree = "<group>"; };
 		ED7A1E412B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW_3_Part_1___Monte_Carlo_IntegrationUITestsLaunchTests.swift"; sourceTree = "<group>"; };
 		ED7A1E4E2B756002004568C4 /* MonteCarloDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloDrawingView.swift; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 		ED7A1E212B755D00004568C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED7A1E202B755D00004568C4 /* HW 3 Monte Carlo Integration and Shielding Calculations.app */,
-				ED7A1E312B755D02004568C4 /* HW 3 Monte Carlo Integration and Shielding CalculationsTests.xctest */,
-				ED7A1E3B2B755D02004568C4 /* HW 3 Monte Carlo Integration and Shielding CalculationsUITests.xctest */,
+				ED7A1E202B755D00004568C4 /* HW 3 Part 1 Monte Carlo Integration.app */,
+				ED7A1E312B755D02004568C4 /* HW 3 Part 1 Monte Carlo IntegrationTests.xctest */,
+				ED7A1E3B2B755D02004568C4 /* HW 3 Part 1 Monte Carlo IntegrationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED7A1E1F2B755D00004568C4 /* HW 3 Monte Carlo Integration and Shielding Calculations */ = {
+		ED7A1E1F2B755D00004568C4 /* HW 3 Part 1 Monte Carlo Integration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED7A1E452B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Monte Carlo Integration and Shielding Calculations" */;
+			buildConfigurationList = ED7A1E452B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Part 1 Monte Carlo Integration" */;
 			buildPhases = (
 				ED7A1E1C2B755D00004568C4 /* Sources */,
 				ED7A1E1D2B755D00004568C4 /* Frameworks */,
@@ -156,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = "HW 3 Monte Carlo Integration and Shielding Calculations";
+			name = "HW 3 Part 1 Monte Carlo Integration";
 			productName = "HW 3 Part 1 - Monte Carlo Integration";
-			productReference = ED7A1E202B755D00004568C4 /* HW 3 Monte Carlo Integration and Shielding Calculations.app */;
+			productReference = ED7A1E202B755D00004568C4 /* HW 3 Part 1 Monte Carlo Integration.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ED7A1E302B755D02004568C4 /* HW 3 Monte Carlo Integration and Shielding CalculationsTests */ = {
+		ED7A1E302B755D02004568C4 /* HW 3 Part 1 Monte Carlo IntegrationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED7A1E482B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Monte Carlo Integration and Shielding CalculationsTests" */;
+			buildConfigurationList = ED7A1E482B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Part 1 Monte Carlo IntegrationTests" */;
 			buildPhases = (
 				ED7A1E2D2B755D02004568C4 /* Sources */,
 				ED7A1E2E2B755D02004568C4 /* Frameworks */,
@@ -174,14 +174,14 @@
 			dependencies = (
 				ED7A1E332B755D02004568C4 /* PBXTargetDependency */,
 			);
-			name = "HW 3 Monte Carlo Integration and Shielding CalculationsTests";
+			name = "HW 3 Part 1 Monte Carlo IntegrationTests";
 			productName = "HW 3 Part 1 - Monte Carlo IntegrationTests";
-			productReference = ED7A1E312B755D02004568C4 /* HW 3 Monte Carlo Integration and Shielding CalculationsTests.xctest */;
+			productReference = ED7A1E312B755D02004568C4 /* HW 3 Part 1 Monte Carlo IntegrationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ED7A1E3A2B755D02004568C4 /* HW 3 Monte Carlo Integration and Shielding CalculationsUITests */ = {
+		ED7A1E3A2B755D02004568C4 /* HW 3 Part 1 Monte Carlo IntegrationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED7A1E4B2B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Monte Carlo Integration and Shielding CalculationsUITests" */;
+			buildConfigurationList = ED7A1E4B2B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Part 1 Monte Carlo IntegrationUITests" */;
 			buildPhases = (
 				ED7A1E372B755D02004568C4 /* Sources */,
 				ED7A1E382B755D02004568C4 /* Frameworks */,
@@ -192,9 +192,9 @@
 			dependencies = (
 				ED7A1E3D2B755D02004568C4 /* PBXTargetDependency */,
 			);
-			name = "HW 3 Monte Carlo Integration and Shielding CalculationsUITests";
+			name = "HW 3 Part 1 Monte Carlo IntegrationUITests";
 			productName = "HW 3 Part 1 - Monte Carlo IntegrationUITests";
-			productReference = ED7A1E3B2B755D02004568C4 /* HW 3 Monte Carlo Integration and Shielding CalculationsUITests.xctest */;
+			productReference = ED7A1E3B2B755D02004568C4 /* HW 3 Part 1 Monte Carlo IntegrationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED7A1E1B2B755D00004568C4 /* Build configuration list for PBXProject "HW 3 Monte Carlo Integration and Shielding Calculations" */;
+			buildConfigurationList = ED7A1E1B2B755D00004568C4 /* Build configuration list for PBXProject "HW 3 Part 1 Monte Carlo Integration" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -233,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED7A1E1F2B755D00004568C4 /* HW 3 Monte Carlo Integration and Shielding Calculations */,
-				ED7A1E302B755D02004568C4 /* HW 3 Monte Carlo Integration and Shielding CalculationsTests */,
-				ED7A1E3A2B755D02004568C4 /* HW 3 Monte Carlo Integration and Shielding CalculationsUITests */,
+				ED7A1E1F2B755D00004568C4 /* HW 3 Part 1 Monte Carlo Integration */,
+				ED7A1E302B755D02004568C4 /* HW 3 Part 1 Monte Carlo IntegrationTests */,
+				ED7A1E3A2B755D02004568C4 /* HW 3 Part 1 Monte Carlo IntegrationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		ED7A1E332B755D02004568C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED7A1E1F2B755D00004568C4 /* HW 3 Monte Carlo Integration and Shielding Calculations */;
+			target = ED7A1E1F2B755D00004568C4 /* HW 3 Part 1 Monte Carlo Integration */;
 			targetProxy = ED7A1E322B755D02004568C4 /* PBXContainerItemProxy */;
 		};
 		ED7A1E3D2B755D02004568C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED7A1E1F2B755D00004568C4 /* HW 3 Monte Carlo Integration and Shielding Calculations */;
+			target = ED7A1E1F2B755D00004568C4 /* HW 3 Part 1 Monte Carlo Integration */;
 			targetProxy = ED7A1E3C2B755D02004568C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -522,7 +522,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW 3 Monte Carlo Integration and Shielding Calculations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HW 3 Monte Carlo Integration and Shielding Calculations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW 3 Part 1 Monte Carlo Integration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HW 3 Part 1 Monte Carlo Integration";
 			};
 			name = Debug;
 		};
@@ -545,7 +545,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW 3 Monte Carlo Integration and Shielding Calculations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HW 3 Monte Carlo Integration and Shielding Calculations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW 3 Part 1 Monte Carlo Integration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HW 3 Part 1 Monte Carlo Integration";
 			};
 			name = Release;
 		};
@@ -596,7 +596,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED7A1E1B2B755D00004568C4 /* Build configuration list for PBXProject "HW 3 Monte Carlo Integration and Shielding Calculations" */ = {
+		ED7A1E1B2B755D00004568C4 /* Build configuration list for PBXProject "HW 3 Part 1 Monte Carlo Integration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED7A1E432B755D02004568C4 /* Debug */,
@@ -605,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED7A1E452B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Monte Carlo Integration and Shielding Calculations" */ = {
+		ED7A1E452B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Part 1 Monte Carlo Integration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED7A1E462B755D02004568C4 /* Debug */,
@@ -614,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED7A1E482B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Monte Carlo Integration and Shielding CalculationsTests" */ = {
+		ED7A1E482B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Part 1 Monte Carlo IntegrationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED7A1E492B755D02004568C4 /* Debug */,
@@ -623,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED7A1E4B2B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Monte Carlo Integration and Shielding CalculationsUITests" */ = {
+		ED7A1E4B2B755D02004568C4 /* Build configuration list for PBXNativeTarget "HW 3 Part 1 Monte Carlo IntegrationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED7A1E4C2B755D02004568C4 /* Debug */,
