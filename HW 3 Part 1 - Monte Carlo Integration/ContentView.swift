@@ -10,7 +10,7 @@ import Foundation
 
 // Default number of guesses
 
-struct MonteCarloIntegrationContentView: View {
+struct ContentView: View {
     @State private var guessesString = "1"
     @State private var totalGuessString = "0"
     @State private var integralResultString = "0.0"
@@ -144,6 +144,6 @@ struct MonteCarloIntegrationContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MonteCarloIntegrationContentView()
+        ContentView()
     }
 }

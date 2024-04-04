@@ -11,17 +11,7 @@ import SwiftUI
 struct HW3Part1MonteCarloIntegrationApp: App {
     var body: some Scene {
         WindowGroup {
-            TabView {
-                MonteCarloIntegrationContentView()
-                    .tabItem {
-                        Label("Part 1 - Monte Carlo Integration", systemImage: "function")
-                    }
-                
-                ShieldingCalculationsContentView()
-                    .tabItem {
-                        Label("Part 2 - Shielding Test Calculations", systemImage: "shield")
-                    }
-            }
+            ContentView()
         }
     }
 }
