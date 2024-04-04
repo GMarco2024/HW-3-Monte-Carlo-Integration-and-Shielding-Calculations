@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		333E40502BB6222700A2C421 /* ShieldingCalculationsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333E404F2BB6222700A2C421 /* ShieldingCalculationsContentView.swift */; };
-		333E40522BB6223C00A2C421 /* Wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333E40512BB6223C00A2C421 /* Wall.swift */; };
-		333E40542BB6224C00A2C421 /* Neutron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333E40532BB6224C00A2C421 /* Neutron.swift */; };
-		333E40562BB6225D00A2C421 /* PathPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333E40552BB6225D00A2C421 /* PathPositions.swift */; };
 		ED7A1E242B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E232B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift */; };
 		ED7A1E262B755D00004568C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A1E252B755D00004568C4 /* ContentView.swift */; };
 		ED7A1E282B755D02004568C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7A1E272B755D02004568C4 /* Assets.xcassets */; };
@@ -42,10 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		333E404F2BB6222700A2C421 /* ShieldingCalculationsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldingCalculationsContentView.swift; sourceTree = "<group>"; };
-		333E40512BB6223C00A2C421 /* Wall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wall.swift; sourceTree = "<group>"; };
-		333E40532BB6224C00A2C421 /* Neutron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neutron.swift; sourceTree = "<group>"; };
-		333E40552BB6225D00A2C421 /* PathPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathPositions.swift; sourceTree = "<group>"; };
 		ED7A1E202B755D00004568C4 /* HW 3 Monte Carlo Integration and Shielding Calculations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW 3 Monte Carlo Integration and Shielding Calculations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7A1E232B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HW_3_Part_1___Monte_Carlo_IntegrationApp.swift"; sourceTree = "<group>"; };
 		ED7A1E252B755D00004568C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,17 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		333E404E2BB6218200A2C421 /* HW 3 Part 2 Shielding Calculations */ = {
-			isa = PBXGroup;
-			children = (
-				333E404F2BB6222700A2C421 /* ShieldingCalculationsContentView.swift */,
-				333E40512BB6223C00A2C421 /* Wall.swift */,
-				333E40532BB6224C00A2C421 /* Neutron.swift */,
-				333E40552BB6225D00A2C421 /* PathPositions.swift */,
-			);
-			path = "HW 3 Part 2 Shielding Calculations";
-			sourceTree = "<group>";
-		};
 		ED7A1E172B755D00004568C4 = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +109,6 @@
 				EDE8453C2B75A261007D08D5 /* MonteCarloIntegration.swift */,
 				ED8B08B92B7ED19900CDD89B /* BoundingBox.swift */,
 				ED7DF24D2B7EFA2100E868E2 /* IntegralRelativeError.swift */,
-				333E404E2BB6218200A2C421 /* HW 3 Part 2 Shielding Calculations */,
 				ED7A1E272B755D02004568C4 /* Assets.xcassets */,
 				ED7A1E292B755D02004568C4 /* HW_3_Part_1___Monte_Carlo_Integration.entitlements */,
 				ED7A1E2A2B755D02004568C4 /* Preview Content */,
@@ -291,16 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				333E40502BB6222700A2C421 /* ShieldingCalculationsContentView.swift in Sources */,
-				333E40562BB6225D00A2C421 /* PathPositions.swift in Sources */,
-				333E40522BB6223C00A2C421 /* Wall.swift in Sources */,
 				ED8B08BA2B7ED19900CDD89B /* BoundingBox.swift in Sources */,
 				ED7DF24E2B7EFA2100E868E2 /* IntegralRelativeError.swift in Sources */,
 				ED7A1E262B755D00004568C4 /* ContentView.swift in Sources */,
 				ED7A1E242B755D00004568C4 /* HW_3_Part_1___Monte_Carlo_IntegrationApp.swift in Sources */,
 				ED7A1E4F2B756002004568C4 /* MonteCarloDrawingView.swift in Sources */,
 				EDE8453D2B75A261007D08D5 /* MonteCarloIntegration.swift in Sources */,
-				333E40542BB6224C00A2C421 /* Neutron.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
